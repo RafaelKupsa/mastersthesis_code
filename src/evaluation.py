@@ -20,13 +20,13 @@ def compute_metrics(model_output):
     for labels, predictions in zip(all_labels, all_predictions):
         discard = [label == -100 for label in labels]
         corrected_predictions.append([
-            POS_TAGS.index(prediction)
+            POS_TAGS[prediction]
             for discard_label, prediction
             in zip(discard, predictions)
             if not discard_label
         ])
         corrected_labels.append([
-            POS_TAGS.index(label)
+            POS_TAGS[label]
             for discard_label, label
             in zip(discard, labels)
             if not discard_label
