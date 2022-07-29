@@ -7,3 +7,4 @@ eval_out/**
 data/**
 !data/**/
 !data/languages_info.csv
+!data/**/.gitkeep
