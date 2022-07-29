@@ -1,0 +1,9 @@
+.idea/**
+venv/**
+models/**
+!models/**/
+eval_out/**
+!eval_out/**/
+data/**
+!data/**/
+!data/languages_info.csv

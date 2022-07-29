@@ -1,0 +1,8 @@
+tqdm~=4.64.0
+torch~=1.12.0
+transformers~=4.21.0
+numpy~=1.23.1
+Scrapy~=2.6.2
+pandas~=1.4.3
+seqeval~=1.2.2
+conllu~=4.5.2
