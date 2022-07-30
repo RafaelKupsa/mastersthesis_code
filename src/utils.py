@@ -30,7 +30,7 @@ def lang2pos(lang, train_dev_test):
         'arb': 'UD_Arabic-NYUAD/ar_nyuad-ud-{}.conllu',
         'ell': 'UD_Greek-GDT/el_gdt-ud-{}.conllu',
         'hun': 'UD_Hungarian-Szeged/hu_szeged-ud-{}.conllu',
-        'gla': 'UD_Irish-IDT/ga_idt-ud-{}.conllu',
+        'gle': 'UD_Irish-IDT/ga_idt-ud-{}.conllu',
         'bam': 'UD_Bambara-CRB/bm_crb-ud-{}.conllu',
         'cop': 'UD_Coptic-Scriptorium/cop_scriptorium-ud-{}.conllu',
         'glv': 'UD_Manx-Cadhan/gv_cadhan-ud-{}.conllu',
