@@ -5,7 +5,7 @@ from transformers import TrainingArguments, Trainer
 from src.collator import DataCollatorForTLMandALP, DataCollatorForTLM, DataCollatorForALP
 from src.model import XLMRobertaForTLMandALP, XLMRobertaForALP, XLMRobertaForTLM
 from src.config import XLMRobertaForALPConfig, XLMRobertaForTLMandALPConfig
-from src.dataset import DatasetforTLMandALP
+from src.dataset import DatasetForTLMandALP
 
 if __name__ == "__main__":
     import argparse
@@ -28,7 +28,7 @@ if __name__ == "__main__":
 
     # Dataset
     print("Loading dataset for TLM/ALP")
-    dataset = DatasetforTLMandALP(from_file=args.dataset)
+    dataset = DatasetForTLMandALP(from_file=args.dataset)
 
     # Data Collator
     print("Initializing data collator")

@@ -1,4 +1,4 @@
-from src.dataset import DatasetforTLMandALP
+from src.dataset import DatasetForTLMandALP
 
 if __name__ == "__main__":
     import argparse
@@ -16,7 +16,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     print("Creating dataset for TLM and ALP")
-    DatasetforTLMandALP(
+    DatasetForTLMandALP(
         target_language=args.target_language,
         source_languages=args.source_languages,
         max_len=args.max_len,

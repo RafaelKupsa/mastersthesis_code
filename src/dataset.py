@@ -13,7 +13,7 @@ from .alignment import MultiAligner
 from .utils import lang2bible
 
 
-class DatasetforTLMandALP(Dataset):
+class DatasetForTLMandALP(Dataset):
     """
     Dataset class for TLM (Translation Language Modeling) and ALP (Alignment Link Prediction)
     """

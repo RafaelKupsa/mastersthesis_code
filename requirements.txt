@@ -6,3 +6,4 @@ Scrapy~=2.6.2
 pandas~=1.4.3
 seqeval~=1.2.2
 conllu~=4.5.2
+iso639-lang~=2.0.1
