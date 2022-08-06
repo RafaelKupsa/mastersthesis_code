@@ -50,9 +50,9 @@ if __name__ == "__main__":
         raise ValueError(f"Must either train on agx or tlm objective or both.")
 
     # Training Arguments
-    tlm = "tlm-" if args.tlm else ""
-    alp = "alp-" if args.alp else ""
-    save_name = args.save_name if args.save_name else args.dataset.replace("alignment-graph-dataset", f"{tlm}{alp}model")
+    tlm = "-tlm" if args.tlm else ""
+    alp = "-alp" if args.alp else ""
+    save_name = args.save_name if args.save_name else args.dataset.replace("dataset-tlm-alp", f"model{tlm}{alp}")
     savepath = os.path.join(args.save_directory, save_name)
     warmup_steps = int((args.epochs * (len(dataset) // (args.batch_size * args.gradient_accumulation_steps))) * .01)
 
