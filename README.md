@@ -1,4 +1,4 @@
-# Improving Pretrained Multilingual Models for Low Resouce Languages by Learning from Alignment Graphs
+# Improving Pretrained Multilingual Models for Low Resource Languages by Learning from Alignment Graphs
 ### Master's Thesis by Rafael Kupsa
 ### Center for Information and Language Processing, Ludwig-Maximilians-Universität München
 ### Supervised by Ayyoob Imani, M. Sc.
